@@ -1,5 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .cajas {
     background-color: #2EA043;
     width: 500px;
     height: 500px;
+    display: flex;
+
+    /*position:fixed;*/ 
+}
+
+.cajas .caja
+{
+    background-color: #E4374D;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 100px ;
+
+}
+
+.fijo{
+    background-color: #FBBD07;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    right: 0%;
+    bottom: 2%;
+    border-radius: 100%;
 }
